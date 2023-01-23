@@ -15,16 +15,21 @@ arr =   [
          ];
 
 
-output(arr);
-output(arr[0]);
-output(arr[0][0] + " " + arr[0][1] + " " + arr[0][2]);
-output(arr[1][2]);
+// output(arr);
+// output(arr[0]);
+// output(arr[0][0] + " " + arr[0][1] + " " + arr[0][2]);
+// output(arr[1][2]);
 
 //nested loop
-// for (let i = 0; i < arr.length; i++) {
-//         const element = arr[i];
+for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+                output("Index i: " + i + " Index j: " + j);
+                output(arr[i][j])
+                
+        }
         
-// }
+        
+}
         
 
 
